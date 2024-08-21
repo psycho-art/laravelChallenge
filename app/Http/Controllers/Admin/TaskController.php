@@ -33,7 +33,7 @@ class TaskController extends Controller
             }
 
             // Admins can see all tasks, Users can only see their own
-            $tasks = $query->paginate(10);
+            $tasks = $query->cursorPaginate(10);
 
             $users = User::all();
 

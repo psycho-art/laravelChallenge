@@ -17,7 +17,7 @@ class InvitationController extends Controller
         $title = "Invitations";
 
         try {
-            $invitations = Invitation::paginate(10);
+            $invitations = Invitation::cursorPaginate(10);
         } catch (Exception $e) {
             Log::error('Failed to load invitations: ' . $e->getMessage());
             return redirect()->back()->with('error', 'Failed to load invitations.');
