@@ -16,6 +16,7 @@ Follow these steps to set up the project locally:
 
 ## Clone the repository to your local machine:
 git clone https://github.com/psycho-art/laravelChallenge.git
+
 cd your-repository-name
 
 ## Use Composer to install the PHP dependencies:
