@@ -1,0 +1,72 @@
+body {
+    background-color: #f7f9fc;
+}
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+.login-box h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+.login-box .form-control {
+    height: 45px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.login-box .btn-primary {
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+}
+.login-box .forgot-password {
+    text-align: center;
+    margin-top: 15px;
+}
+.profile-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.profile-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #f8f9fa;
+}
+
+.profile-info {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.profile-info h2 {
+    color: #343a40;
+}
+
+.profile-info p {
+    font-size: 1.1rem;
+    color: #495057;
+}
+
+.profile-info strong {
+    color: #343a40;
+}
+
+.profile-info hr {
+    border-top: 2px solid #343a40;
+    margin: 10px 0;
+}
