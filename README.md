@@ -7,9 +7,9 @@ Prerequisites
 Before you begin, ensure you have the following installed:
 
 PHP >= 8.0
-Composer
-Git
-MySql
+Composer, 
+Git, 
+MySql, 
 
 ## Installation
 Follow these steps to set up the project locally:
