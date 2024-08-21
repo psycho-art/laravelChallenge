@@ -15,7 +15,7 @@ MySql,
 Follow these steps to set up the project locally:
 
 ## Clone the repository to your local machine:
-git clone -b master https://github.com/psycho-art/laravelChallenge.git
+git clone https://github.com/psycho-art/laravelChallenge.git
 
 cd your-repository-name
 
@@ -47,3 +47,15 @@ Password: password
 php artisan serve
 
 Your application should now be running at http://localhost:8000.
+
+## Design Patterns Used
+
+## MVC (Model-View-Controller) Pattern
+This project follows the MVC (Model-View-Controller) design pattern, The MVC pattern separates the application into three main components: Models, Views, and Controllers.
+
+## Example in This Project:
+User Management: The AuthController handles user-related actions like registration and login It interacts with the User model to retrieve user data and passes this data to the corresponding Blade templates for rendering.
+
+Task Management: The TaskController handles CRUD operations for tasks. It interacts with the Task model to fetch, create, update, and delete tasks. The data is then passed to the view, where tasks are displayed in a list or detail view.
+
+Invitations: The InvitationController manages the logic for creating and sending invitations. It interacts with the Invitation model and ensures that the invitation data is properly stored and displayed.
