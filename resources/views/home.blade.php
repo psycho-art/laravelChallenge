@@ -89,7 +89,7 @@
             const userCard = `
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="${user.picture.medium}" class="card-img-top" alt="${user.name.first}">
+                        <img src="${user.picture.large}" class="card-img-top" alt="${user.name.first}">
                         <div class="card-body">
                             <h5 class="card-title">${user.name.first} ${user.name.last}</h5>
                             <p class="card-text">${user.email}</p>
