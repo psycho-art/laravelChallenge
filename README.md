@@ -15,7 +15,7 @@ MySql,
 Follow these steps to set up the project locally:
 
 ## Clone the repository to your local machine:
-git clone https://github.com/psycho-art/laravelChallenge.git
+git clone -b master https://github.com/psycho-art/laravelChallenge.git
 
 cd your-repository-name
 
