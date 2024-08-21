@@ -38,6 +38,10 @@ php artisan key:generate
 ## Migrate the database and seed it with initial data:
 php artisan migrate:fresh --seed
 
+## Admin Credentials
+Email: waleed.nasrullah99@gmail.com   
+Password: password
+
 ## Start the Laravel development server:
 php artisan serve
 
