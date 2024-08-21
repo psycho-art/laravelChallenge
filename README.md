@@ -39,7 +39,8 @@ php artisan key:generate
 ## Migrate the database and seed it with initial data:
 php artisan migrate:fresh --seed
 
-## Admin Credentials
+## Admin Credentials and Link
+Admin Link: http://127.0.0.1:8000/login
 Email: admin@example.com  
 Password: password
 
@@ -54,7 +55,7 @@ Your application should now be running at http://localhost:8000.
 This project follows the MVC (Model-View-Controller) design pattern, The MVC pattern separates the application into three main components: Models, Views, and Controllers.
 
 ## Example in This Project:
-User Management: The AuthController handles user-related actions like registration and login It interacts with the User model to retrieve user data and passes this data to the corresponding Blade templates for rendering.
+Authentication: The AuthController handles user-related actions like registration and login It interacts with the User model to authenticate user and redirects user based on their role
 
 Task Management: The TaskController handles CRUD operations for tasks. It interacts with the Task model to fetch, create, update, and delete tasks. The data is then passed to the view, where tasks are displayed in a list or detail view.
 
