@@ -39,7 +39,7 @@ php artisan key:generate
 php artisan migrate:fresh --seed
 
 ## Admin Credentials
-Email: waleed.nasrullah99@gmail.com   
+Email: admin@example.com  
 Password: password
 
 ## Start the Laravel development server:
